@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01c502f1-c899-43b3-9b26-da49573d20e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stage2_AttVAE/dataset_multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stage2_AttVAE/ensemble.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stage2_AttVAE/evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stage2_AttVAE/main_multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normalization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_val_split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/.idea/BraTS2018_NvNet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/.idea/libraries/R_User_Library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage1_VAE/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage1_VAE/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/ensemble.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage1_VAE/ensemble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage1_VAE/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/multiGPU.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/normalization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/plots/myplot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/plots/myplot-sin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/predict_tta.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage1_VAE/predict_tta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/sh_files/ensemble_voting9_withProb.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/sh_files/norm.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage1_VAE/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/train_val_split.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage1_VAE/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage1_VAE/validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/.idea/BraTS2018_NvNet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/.idea/libraries/R_User_Library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/Unet_two_stage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage2_AttVAE/attVnet_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage2_AttVAE/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage2_AttVAE/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage2_AttVAE/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage2_AttVAE/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/multiGPU.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/p40_predict.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/predict_tta.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage2_AttVAE/predict_tta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage2_AttVAE/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage2_AttVAE/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage2_AttVAE/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stage2_AttVAE/validation.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="194">
+                <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stage1_VAE/predict_tta.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1983">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>flooding</find>
+      <find>attVnet</find>
+      <find>config['saved_model_path']</find>
+      <find>config[&quot;base_path&quot;]</find>
+      <find>Unet_two</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Stage1_VAE/train_val_split.py" />
+        <option value="$PROJECT_DIR$/Stage2_Att+VAE/utils.py" />
+        <option value="$PROJECT_DIR$/Stage2_Att+VAE/predict_tta.py" />
+        <option value="$PROJECT_DIR$/Stage2_Att+VAE/main.py" />
+        <option value="$PROJECT_DIR$/Stage2_Att+VAE/dataset.py" />
+        <option value="$PROJECT_DIR$/Stage2_Att+VAE/main_multi.py" />
+        <option value="$PROJECT_DIR$/Stage2_Att+VAE/config.py" />
+        <option value="$PROJECT_DIR$/Stage2_Att+VAE/dataset_multi.py" />
+        <option value="$PROJECT_DIR$/Stage2_Att+VAE/p40_predict.sh" />
+        <option value="$PROJECT_DIR$/Stage2_Att+VAE/train.py" />
+        <option value="$PROJECT_DIR$/Stage1_VAE/config.py" />
+        <option value="$PROJECT_DIR$/Stage2_AttVAE/config.py" />
+        <option value="$PROJECT_DIR$/normalization.py" />
+        <option value="$PROJECT_DIR$/Stage1_VAE/ensemble.py" />
+        <option value="$PROJECT_DIR$/Stage1_VAE/train.py" />
+        <option value="$PROJECT_DIR$/Stage1_VAE/validation.py" />
+        <option value="$PROJECT_DIR$/Stage1_VAE/predict_tta.py" />
+        <option value="$PROJECT_DIR$/train_val_split.py" />
+        <option value="$PROJECT_DIR$/Stage1_VAE/dataset.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Stage2_AttVAE/evaluation.py" />
+        <option value="$PROJECT_DIR$/Stage2_AttVAE/ensemble.py" />
+        <option value="$PROJECT_DIR$/Stage2_AttVAE/main_multi.py" />
+        <option value="$PROJECT_DIR$/Stage2_AttVAE/main.py" />
+        <option value="$PROJECT_DIR$/Stage1_VAE/main.py" />
+        <option value="$PROJECT_DIR$/Stage2_AttVAE/predict_tta.py" />
+        <option value="$PROJECT_DIR$/Stage2_AttVAE/train.py" />
+        <option value="$PROJECT_DIR$/Stage2_AttVAE/validation.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/code_for_push.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="63" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="829" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="code_for_push" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code_for_push" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Stage2_Att+VAE" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="code_for_push" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/torch04/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stage1_VAE" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stage1_VAE/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_multi" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="code_for_push" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/torch04/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stage2_Att+VAE" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stage2_Att+VAE/main_multi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="normalization" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="code_for_push" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/torch04/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/normalization.py" />
+      <option name="PARAMETERS" value="-y 2020" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict_tta" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="code_for_push" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/torch04/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stage1_VAE" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stage1_VAE/predict_tta.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.predict_tta" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.main_multi" />
+      <item itemvalue="Python.normalization" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01c502f1-c899-43b3-9b26-da49573d20e3" name="Default Changelist" comment="" />
+      <created>1604545483988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604545483988</updated>
+      <workItem from="1604545486251" duration="11356000" />
+      <workItem from="1604575523072" duration="4493000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15849000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="25" width="1440" height="829" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32971507" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39891452" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3292683" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="R Graphics" order="5" />
+      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Stage2_AttVAE/main_multi.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Stage2_AttVAE/predict_tta.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Stage1_VAE/predict_tta.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Stage1_VAE/predict_tta.py</url>
+          <line>229</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Stage1_VAE/main.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Stage1_VAE/main.py</url>
+          <line>158</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Stage2_AttVAE/utils.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/code_for_push$normalization.coverage" NAME="normalization Coverage Results" MODIFIED="1604570471325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code_for_push$main.coverage" NAME="main Coverage Results" MODIFIED="1604579227771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stage1_VAE" />
+    <SUITE FILE_PATH="coverage/code_for_push$predict_tta.coverage" NAME="predict_tta Coverage Results" MODIFIED="1604579065786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stage1_VAE" />
+    <SUITE FILE_PATH="coverage/code_for_push$main_multi.coverage" NAME="main_multi Coverage Results" MODIFIED="1604564904078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stage2_Att+VAE" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>config</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>name_mapping[&quot;BraTS_2020_subject_ID&quot;].tolist()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>config[&quot;test_path&quot;]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>config[&quot;prediction_dir&quot;]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>data_file_path</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Stage2_Att+VAE/alpha_script.py" />
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/train_val_split.py" />
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/normalization.py" />
+    <entry file="file://$PROJECT_DIR$/requirement.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.sh" />
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/multiGPU.sh" />
+    <entry file="file://$PROJECT_DIR$/Stage2_Att+VAE/v100_lr.sh" />
+    <entry file="file://$PROJECT_DIR$/Stage2_Att+VAE/p100_predict.sh" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch04/lib/python3.6/posixpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/sh_files/norm.sh" />
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/sh_files/ensemble_voting9_withProb.sh" />
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/p40_predict.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/attVnet_2dec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="306" lean-forward="true" selection-start-line="306" selection-end-line="306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch04/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="80" lean-forward="true" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/normalization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="224" column="53" lean-forward="true" selection-start-line="224" selection-start-column="53" selection-end-line="224" selection-end-column="53" />
+          <folding>
+            <element signature="e#96#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/metrics.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/nvnet.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/ensemble.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#96#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2358">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/torch04/lib/python3.6/site-packages/torch/cuda/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-753">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#96#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="274" column="38" lean-forward="true" selection-start-line="274" selection-start-column="38" selection-end-line="274" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_val_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/dataset_multi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2727">
+          <caret line="219" column="46" lean-forward="true" selection-start-line="219" selection-start-column="46" selection-end-line="219" selection-end-column="46" />
+          <folding>
+            <element signature="e#96#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/evaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/ensemble.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1971">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/predict_tta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#96#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/main_multi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#96#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/Unet_two_stage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#96#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage2_AttVAE/attVnet_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="314" column="40" selection-start-line="314" selection-start-column="40" selection-end-line="314" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stage1_VAE/predict_tta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1983">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="194">
+            <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
