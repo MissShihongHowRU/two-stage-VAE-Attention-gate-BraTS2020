@@ -2,8 +2,9 @@
 ![Pytorch](https://img.shields.io/badge/Implemented%20in-Pytorch-red.svg)
 
 ![The model architecture](https://img-blog.csdnimg.cn/20201105195218458.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pc3NTaGlob25n,size_16,color_FFFFFF,t_70#pic_center)
-<center><b>The Model Struture</b></center><br /><center>Source: https://arxiv.org/</center>
-<br /><br />
+<center><b>The Model Struture</b></center><br/>
+<center>Source: https://arxiv.org/abs/2011.02881</center>
+<br/><br/>
 
 
 # Installation
