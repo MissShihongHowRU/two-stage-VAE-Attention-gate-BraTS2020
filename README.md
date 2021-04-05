@@ -4,7 +4,7 @@
 ![The model architecture](https://img-blog.csdnimg.cn/20201105195218458.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pc3NTaGlob25n,size_16,color_FFFFFF,t_70#pic_center)
 <center><b>The Model Struture</b></center><br /><center>Source: 
  
- C. Lyu, H. Shu. (2020) A Two-Stage Cascade Model with Variational Autoencoders and Attention Gates for MRI Brain Tumor Segmentation. Brainlesion: Glioma, Multiple Sclerosis, Stroke and Traumatic Brain Injuries (BrainLes 2020), LNCS 12658, pp. 435-447. https://doi.org/10.1007/978-3-030-72084-1_39 or
+ C. Lyu, H. Shu. (2021) A Two-Stage Cascade Model with Variational Autoencoders and Attention Gates for MRI Brain Tumor Segmentation. Brainlesion: Glioma, Multiple Sclerosis, Stroke and Traumatic Brain Injuries (BrainLes 2020), LNCS 12658, pp. 435-447. https://doi.org/10.1007/978-3-030-72084-1_39 or
  https://arxiv.org/abs/2011.02881</center>
  
  Our algorithm ranks top 9 in the Brats 2020 Challenge. 
