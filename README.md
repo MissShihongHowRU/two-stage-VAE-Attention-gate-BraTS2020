@@ -41,15 +41,28 @@ The Implementations of two stages are separated.
 - For training the first-stage model, use:
 ```bash
 cd Stage1_VAE
-python main.py -e num_epoch -l 128 -g num_gpus -f folder_for_models_saving
+python main.py -e num_epoch -g num_gpus -s folder_for_models_saving
 ``` 
+where the input size is (128, 192, 160) by default.
 
 - for training the second-stage model, use:
 ```bash
 cd Stage2_AttVAE
-python main_multi.py -e num_epoch -l 128 -g num_gpus -f folder_for_models_saving
+python main_multi.py -e num_epoch -l 128 -g num_gpus -s folder_for_models_saving
 ``` 
-where the `-l` controls for the patch size, which is set to be 128 during our training process. Please change other arguments according to your preference.
+where the `-l` controls for the patch size, which is set to be 128 during our training process.
+This means the input size is (128, 128, 128). 
+
+For training the second-stage model, it requires additional input from the directory "pred" which has to be created in this folder. 
+The predictions of the first-stage models should be placed in pre-named sub-folders of the "pred" directory.
+The `model_list` in the main_multi.py script specifies which sub-folders/predictions will be used to train the second-stage model. 
+ 
+For instance, if you trained 5 first-stage models and use those weights to make 5 set of predictions, and you decide to use those predictions to train the second-stage model,
+you need to place these 5 set of predictions in 5 sub-folders under the directory 'pred', and you may want to name these sub-folders as 'A', 'B', 'C', 'D', and 'E',
+then you should construct your `model_list=['A', 'B', 'C', 'D', 'E]` 
+
+Please change other arguments according to your preference.
+
 
 ### Testing
 - For testing the first-stage model, use:

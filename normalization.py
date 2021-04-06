@@ -19,7 +19,8 @@ from Stage2_AttVAE.config import config
 def init_args():
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-p', '--data_path', type=str, help='The data path')
+    parser.add_argument('-p', '--data_path', type=str, help='The data path',
+                        default="data/MICCAI_BraTS_2018_Data_Training")
     parser.add_argument('-y', '--year', type=int, help='s', default=2020)
 
     return parser.parse_args()
@@ -175,7 +176,7 @@ if __name__ == "__main__":
     args = init_args()
     if args.year == 2018:
 
-        data_file_path = "data/MICCAI_BraTS_2018_Data_Training"
+        data_file_path = args.data_path
         npy_normalized_folder = join(data_file_path, "npy")
         list_of_lists = get_list_of_files(data_file_path)
         patient_names = [i[0].split("/")[-2] for i in list_of_lists]
