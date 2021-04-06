@@ -51,6 +51,7 @@ def init_args():
 
     return parser.parse_args()
 
+
 args = init_args()
 num_epoch = args.epoch
 num_gpu = args.num_gpu

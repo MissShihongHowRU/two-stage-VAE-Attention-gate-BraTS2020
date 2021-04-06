@@ -45,10 +45,7 @@ def init_args():
     parser.add_argument('-s', '--save_folder', type=str, help='The folder for model saving', default='saved_pth')
     parser.add_argument('-m', '--map_path', type=str, help='The folder including segmentation map for training', default='nml2_lr_cat2_loss_179_0.1657_0.9138train')
     parser.add_argument('-p', '--pth', type=str, help='name of the saved pth file', default='')
-    parser.add_argument('-ps', '--size', type=int, help='patch size', default=128)
-    parser.add_argument('-i', '--image_shape', type=int,  nargs='+', help='The shape of input tensor;'
-                                                                    'have to be dividable by 16 (H, W, D)',
-                        default=[128, 192, 160])
+    parser.add_argument('-l', '--patch_size', type=int, help='patch size', default=128)
 
     return parser.parse_args()
 
